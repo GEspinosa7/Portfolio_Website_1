@@ -1,0 +1,123 @@
+body {
+   margin: 0;
+   color: #40514E;
+}
+
+h2 {
+   color: #66BFBF;
+}
+
+h3 {
+   color: #11999E;
+}
+
+p {
+   margin: 0;
+}
+
+a {
+   text-decoration: none;
+   color: #11999E;
+   font-weight: bold;
+}
+
+a:hover {
+   text-decoration: none !important;
+   color: #152727;      
+}
+
+
+span{
+   text-decoration:underline;
+}
+
+
+
+.flex {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+header {
+   background-image: url(../img/developer.jpg);
+   height: 1000px;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+
+
+.header-content {
+   height: 60%;
+}
+
+.header-content h1, .header-content h2 {
+   color: white;
+}
+
+.profile, .skills, .contact-me {
+   width: 70%;
+   padding: 20px;
+}
+
+.profile-picture {
+   margin-bottom: 70px;
+}
+
+.profile-content {
+   width: 50%;
+   text-align: center;
+}
+
+.pictures {
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+}
+
+.skills h2 {
+   margin-bottom: 70px;
+}
+
+.skill-row {
+   flex-direction: row !important;
+   margin-bottom: 50px;
+}
+
+.skill-desc {
+   margin: 0px 20px;
+}
+
+.contact-me p {
+   margin-bottom: 50px;
+}
+
+.contact-me h2 {
+   margin-bottom: 70px;
+}
+
+.contact-me-content {
+   text-align: center;
+}
+
+footer {
+   background-color: #66BFBF;
+   background-image: url(../img/back.png);
+   background-repeat:repeat-x;
+   background-position: center center;
+   background-size: 100% 220px;
+}
+
+footer p {
+   margin-bottom: 40px;
+   font-weight: bold;
+   color: grey;
+}
+
+.social-contacts {
+   flex-direction: row !important;
+   justify-content: space-around !important;
+   width: 30%;
+   margin: 35px 0px;
+}
