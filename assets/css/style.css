@@ -1,3 +1,7 @@
+html {
+   scroll-behavior: smooth;
+}
+
 body {
    margin: 0;
    color: #40514E;
@@ -31,7 +35,9 @@ span{
    text-decoration:underline;
 }
 
-
+.fab{
+   font-size:25pt;
+}
 
 .flex {
    display: flex;
